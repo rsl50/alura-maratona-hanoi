@@ -32,8 +32,8 @@ int main () {
 
 			if (n == 0) break;
 			
-			//long long int movimentos = pow(2, n) - 1;
-			long long int movimentos = calc_hanoi(n);
+			long long int movimentos = pow(2, n) - 1;
+			//long long int movimentos = calc_hanoi(n);
 
 			printf("Teste %d\n", i++);
 			printf("%d\n\n", movimentos);
